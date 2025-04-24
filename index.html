@@ -15,10 +15,10 @@
       <div class="flex">
         <a class="text-4xl font-bold pr-5 mr-5 " href="index.html">JEWELS</a>
           <ul class="hidden lg:flex font-bold px-10">
-            <li class="pr-5"><a class="border-green-300 ">Home</a></li>
-            <li class="pr-5"><a class="border-green-300 ">Shop</a></li>
-            <li class="pr-5"><a class="border-green-300 ">About</a></li>
-            <li class="pr-5"><a class="border-green-300 ">Contact</a></li>
+            <li class="pr-5"><a class="border-green-300 hover:bg-green-400"href="#Home">Home</a></li>
+            <li class="pr-5"><a class="border-green-300 hover:bg-green-400"href="#Shop">Shop</a></li>
+            <li class="pr-5"><a class="border-green-300 hover:bg-green-400"href="#About">About</a></li>
+            <li class="pr-5"><a class="border-green-300 hover:bg-green-400"href="#Contact">Contact</a></li>
             </ul>
             <button id="cart">
               🛒 <span id="cart-count" class="bg-green-500  px-2 text-sm ">0</span>
@@ -26,40 +26,45 @@
         </div>
         <div>
         <section class="bg-gray-100 text-center py-20">
+          <div id="Home">
           <img src="assets/women-shopping-buying-consumer-products-customer-day-celebration_23-2151623481.avif" class="w-full h-64 object-cover" alt="Banner">
           <h1 class="text-4xl font-bold mt-6">Welcome to Our Store</h1>
           <p class="text-lg mt-2">Buy elegance to your home</p>
-          <button class="mt-4 px-6 py-2 bg-green-600 rounded">Shop Now</button>
+          <button class="mt-4 px-6 py-2 bg-green-600 rounded hover:bg-green-200">Shop Now</button>
+          </div>
         </section>
       </div>
       <section class="max-w-6xl mx-auto py-12 px-4 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
-        <div class="border p-4 text-center">
+        <div id="Shop" class="border p-4 text-center">
           <img src="./assets/download (1).jpeg">
           <h2 class="mt-2 font-semibold">earings</h2>
           <p>RS.22000</p>
-          <button class="mt-2 add-to-cart bg-green-500 px-4 py-2 rounded">Add to Cart</button>
+          <button class="mt-2 add-to-cart bg-green-500 px-4 py-2 rounded hover:bg-green-700">Add to Cart</button>
         </div>
         <div class="border p-4 text-center">
           <img src="./assets/images.jpeg">
           <h2 class="mt-2 font-semibold">necklace</h2>
           <p>RS.60000</p>
-          <button class="mt-2 add-to-cart bg-green-500  px-4 py-2 rounded">Add to Cart</button>
+          <button class="mt-2 add-to-cart bg-green-500  px-4 py-2 rounded hover:bg-green-700">Add to Cart</button>
         </div>
         <div class="border p-4 text-center">
           <img src="./assets/download.jpeg">
           <h2 class="mt-2 font-semibold">bangle</h2>
           <p>RS.45000</p>
-          <button class="mt-2 bg-green-500  px-4 py-2 rounded">Add to Cart</button>
+          <button class="mt-2 bg-green-500  px-4 py-2 rounded hover:bg-green-700">Add to Cart</button>
         </div>
       </section>
       <section class="py-12 text-center">
+        <div id="Contact">
         <h2 class="text-xl font-bold">click here</h2>
         <div class="mt-4">
-          <button class="ml-2 px-4 py-2 bg-green-400 rounded">Subscribe</button>
+          <button class="ml-2 px-4 py-2 bg-green-400 rounded hover:bg-green-700">Subscribe</button>
+        </div>
         </div>
       </section>
       <script src="script.js"></script>
-    </body>
       <footer class="bg-green-800 text-white  py-6 text-center">
         <p>Contact us:jewel@shop.com</p>
       </footer>
+    </body>
+      
